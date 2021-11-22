@@ -1,0 +1,37 @@
+.mainContainer{
+    padding: 20px;
+    height: 600px;
+    width: 80%;
+    margin: 30px 0 0 100px;
+    display: flex;
+    background-image: url(../../assets/bg3.jfif);
+}
+
+h2,h3{
+    margin-left: 20px;
+    color: ghostwhite;
+}
+.contacts{
+    width: 25%;
+    margin-left: 60px;
+    padding: 10px;
+    background-color: gainsboro;
+    background-image: url(../../assets/bg1.jfif);
+}
+.user{
+    margin-bottom: 5px;
+    padding: 10px;
+    display:flex;
+}
+.user:hover{
+    background-color: #6Eb8E5;
+    cursor: pointer;
+}
+img{
+    border-radius: 50%;
+}
+
+.dispMsg{
+    border: 1px solid #6Eb8E5;
+    width: 50%;
+}

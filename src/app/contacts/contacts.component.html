@@ -1,0 +1,28 @@
+<div class="mainContainer">
+    <div class="contacts">
+        <h2>Contacts</h2>
+
+        <div class="user" (click)="per1()">
+            <img [src]="person1Dp" alt="#" width="80">
+            <div class="profile">
+                <h3>Person 1</h3>
+            </div>
+        </div>
+
+        <div class="user" (click)="per2()">
+            <img [src]="person2Dp" alt="#" width="80">
+            <div class="profile">
+                <h3>Person 2</h3>
+            </div>
+        </div>
+    </div> 
+
+    <div class="dispMsg">
+        <div *ngIf="dispPerson1">
+            <app-person1></app-person1>
+        </div>
+        <div *ngIf="dispPerson2">
+            <app-person2></app-person2>
+        </div>
+    </div>
+</div>

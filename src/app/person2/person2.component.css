@@ -1,0 +1,60 @@
+.chatProfile{
+    background-color: #00A3F7;
+    padding: 10px;
+
+}
+.proUser{
+    display: flex;
+}
+img{
+    border-radius: 50%;
+}
+h3, #ls{
+    color: #fff;
+}
+.profile{
+    margin-left: 10px;
+    margin-top: -15px;
+}
+
+.chatBox{
+    overflow:scroll;
+    height: 400px;
+    overflow-x: hidden;
+    background-image: url(../../assets/bg6.jfif);
+}
+input{
+    width: 30%;
+    height: 30PX;
+    margin-left: 25px;
+    bottom: 50px;
+    position: fixed;
+    border-radius: 30px;
+}
+#btnSend{
+    height: 35px;
+    width: 5%;
+    bottom: 50px;
+    position: fixed;
+    margin-left: 33%;
+    color: #fff;
+    border: 0;
+    border-radius: 50px;
+    background-color: #00A3F7;
+    cursor: pointer;
+}
+.mesg2{
+    color: #fff;
+    background-color: rgb(27, 68, 70);
+    padding: 10px;
+    border-radius: 50px;
+    width: 50%;
+    margin-left: 46%;
+}
+.mesg1{
+    color: #fff;
+    background-color: rgb(104, 230, 236);
+    padding: 10px;
+    border-radius: 50px;
+    width: 50%;
+}

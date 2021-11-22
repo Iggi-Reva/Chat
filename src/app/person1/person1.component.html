@@ -1,0 +1,21 @@
+<div class="chatProfile">
+    <div class="proUser">
+        <img [src]="person1Dp" alt="#" width="60" height="60">
+        <div class="profile">
+            <h3>Person 1</h3>
+            <p id="ls">last seen : {{person1lastSeen}}</p>
+        </div>
+    </div>
+</div>
+
+<div class="chatBox" >
+    <div *ngFor="let msg of chatMsg" id="mesg">
+        <div [ngClass]="{'mesg1':msg.name=='Person1','mesg2':msg.name=='Person2'}">
+            {{msg.name}}:&nbsp;&nbsp;{{msg.mesg}} <br>
+            {{msg.time | date : 'hh:mm'}}
+        </div><br>
+    </div>
+        <input type="text" name="r1"  #mymsg>
+        <button (click)="send(mymsg.value)" id="btnSend">Send</button>
+</div>
+
